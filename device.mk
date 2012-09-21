@@ -1,5 +1,8 @@
-## overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/shooter/overlay
+# Inherit common shooter stuffs
+$(call inherit-product, device/htc/shooter/device_base.mk)
+
+# overlays
+DEVICE_PACKAGE_OVERLAYS += device/htc/shootervm/overlay
 
 ## CDMA Virgin Mobile stuffs
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -13,9 +16,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     gsm.operator.alpha = Virgin Mobile \
     gsm.operator.numeric = 311490 \
     gsm.operator.iso-country = us
-
-# Inherit common shooter stuffs
-$(call inherit-product, device/htc/shooter/device_base.mk)
 
 PRODUCT_NAME := htc_shootervm
 PRODUCT_DEVICE := shootervm
