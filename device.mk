@@ -3,10 +3,10 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/shooter/overlay
 
 ## CDMA Virgin Mobile stuffs
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.com.google.clientidbase=android-htc \
-	ro.com.google.locationfeatures=1 \
-	ro.cdma.home.operator.numeric=311490 \
-	ro.cdma.home.operator.alpha=Virgin Mobile
+    ro.com.google.clientidbase=android-htc \
+    ro.com.google.locationfeatures=1 \
+    ro.cdma.home.operator.numeric=311490 \
+    ro.cdma.home.operator.alpha=Virgin Mobile \
     gsm.sim.operator.alpha = Virgin Mobile \
     gsm.sim.operator.numeric = 311490 \
     gsm.sim.operator.iso-country = us \
