@@ -17,5 +17,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Inherit common shooter stuffs
 $(call inherit-product, device/htc/shooter/device_base.mk)
 
-PRODUCT_NAME := htc_shooter
+PRODUCT_NAME := htc_shootervm
 PRODUCT_DEVICE := shootervm
