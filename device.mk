@@ -1,5 +1,5 @@
-## Inherit shootervm overlay
-DEVICE_PACKAGE_OVERLAYS += device/htc/shootervm/overlay
+## overlays
+DEVICE_PACKAGE_OVERLAYS += device/htc/shooter/overlay
 
 ## CDMA Virgin Mobile stuffs
 PRODUCT_PROPERTY_OVERRIDES += \
