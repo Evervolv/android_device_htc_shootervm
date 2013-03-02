@@ -1,7 +1,7 @@
 [
     {
-        "repository": "android_kernel_htc_shooter",
-        "target_path": "kernel/htc/shooter",
+        "repository": "android_kernel_htc_msm8660",
+        "target_path": "kernel/htc/msm8660",
         "branch": "jellybean",
         "dep_type": "kernel"
     },
@@ -10,5 +10,11 @@
         "target_path": "device/htc/msm8660-common",
         "branch": "jellybean",
         "dep_type": "device"
+    },
+    {
+        "repository": "android_hardware_qcom_audio-caf",
+        "target_path": "hardware/qcom/audio-caf",
+        "branch": "jellybean",
+        "dep_type": "hardware"
     }
 ]
