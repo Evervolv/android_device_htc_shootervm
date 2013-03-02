@@ -12,10 +12,10 @@ $(call inherit-product, vendor/ev/config/common_full_phone.mk)
 #
 PRODUCT_NAME := ev_shootervm
 PRODUCT_BRAND := Virgin_Mobile
-PRODUCT_DEVICE := shooter
+PRODUCT_DEVICE := shootervm
 PRODUCT_MODEL := PG86100
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_shooter BUILD_FINGERPRINT="virgin_mobile/htc_shooter/shooter:4.0.3/IML74K/372137.2:user/release-keys" PRIVATE_BUILD_DESC="1.13.652.2_R2 CL372137 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_shooter BUILD_FINGERPRINT="virgin_mobile/htc_shooter/shooter:4.0.3/IML74K/372137.2:user/release-keys" PRIVATE_BUILD_DESC="1.13.652.2_R2 CL372137 release-keys" TARGET_DEVICE=shooter
 
 # Set up the product codename, build version & MOTD.
 PRODUCT_CODENAME := contendo
